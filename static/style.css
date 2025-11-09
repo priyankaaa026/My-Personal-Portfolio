@@ -1,0 +1,15 @@
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.projects li {
+    background: #ffe6ef;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 15px;
+    line-height: 1.6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
