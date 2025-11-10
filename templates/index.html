@@ -1,58 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Priyanka's Portfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanka's Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
+  <header class="header">
     <div class="container">
-        <header>
-            <h1>Hi, I'm Priyanka!</h1>
-            <p class="tagline">A Passionate Learner & Developer 💻</p>
-        </header>
-
-        <section class="about">
-            <h2>About Me</h2>
-            <p>
-                I'm a AIML who loves coding, creativity, and coffee ☕.  
-                I enjoy exploring Python, web development, and databases, and I’m always curious to learn something new!
-            </p>
-        </section>
-
-        <section class="skills">
-            <h2>Programming Languages</h2>
-            <div class="language-list">
-                <span class="lang">Java,</span>
-                <span class="lang">C,</span>
-                <span class="lang">C++,</span>
-                <span class="lang">Python,</span>
-                <span class="lang">Basics</span>
-            </div>
-        </section>
-
-        <section class="projects">
-            <h2>My Projects</h2>
-            <ul>
-                <li><b>💼 DBMS Company Management System:</b>  
-                    A database-driven web application designed to manage employee and department data efficiently using MySQL.
-                </li>
-                <li><b>🧠 Malicious URL Detection System (ML):</b>  
-                    A machine learning project that detects potentially harmful or phishing URLs using algorithms like Random Forest and XGBoost.
-                </li>
-            </ul>
-        </section>
-
-        <section class="contact">
-            <h2>Contact Me</h2>
-            <p>📧 Email: <a href="mailto:gkpriyanka50@gmail.com">gkpriyanka50@gmail.com</a></p>
-            <p>🌐 GitHub: <a href="https://github.com/priyankaaa026" target="_blank">github.com/priyankaaa026</a></p>
-        </section>
-
-        <footer>
-            <p>© 2024 Priyanka's Portfolio</p>
-        </footer>
+      <h1>🌸 Hi, I'm <span>Priyanka</span></h1>
+      <p class="tagline">A Passionate AIML Learner & Developer 💻</p>
+      <a href="#contact" class="btn">Contact Me</a>
     </div>
+  </header>
+
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm an <b>AIML student</b> who loves coding, creativity, and coffee ☕.  
+          I enjoy exploring <b>Python, web development, and databases</b> — 
+          always curious to learn new things and improve every day.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2>Programming Languages</h2>
+        <div class="skill-badges">
+          <span>Java</span>
+          <span>C</span>
+          <span>C++</span>
+          <span>Python</span>
+          <span>BASICS</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-list">
+          <div class="project-card">
+            <h3>💼 DBMS Company Management System</h3>
+            <p>
+              A database-driven web app for managing employee and department data efficiently using <b>MySQL</b>.
+            </p>
+          </div>
+          <div class="project-card">
+            <h3>🧠 Malicious URL Detection System (ML)</h3>
+            <p>
+              A <b>machine learning project</b> that detects harmful URLs using models like Random Forest and XGBoost.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>📧 Email: <a href="mailto:gkpriyanka50@gmail.com">gkpriyanka50@gmail.com</a></p>
+        <p>🌐 GitHub: <a href="https://github.com/priyankaaa026" target="_blank">github.com/priyankaaa026</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Priyanka’s Portfolio | Made with 💕 & Python</p>
+  </footer>
 </body>
 </html>

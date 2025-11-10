@@ -1,15 +1,93 @@
-.projects ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 15px;
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
 }
 
-.projects li {
-    background: #ffe6ef;
-    margin: 10px 0;
-    padding: 12px 15px;
-    border-radius: 15px;
-    line-height: 1.6;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    text-align: left;
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+/* Header */
+header {
+  background-color: #2b2d42;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header .tagline {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* Sections */
+section {
+  padding: 50px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  color: #2b2d42;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+section p {
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Skills */
+.language-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.language-list li {
+  background-color: #eaeaea;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+/* Projects */
+.project {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.project h3 {
+  color: #2b2d42;
+  margin-bottom: 10px;
+}
+
+/* Contact */
+.contact a {
+  color: #2b2d42;
+  text-decoration: none;
+}
+
+.contact a:
